@@ -7,4 +7,4 @@ before_install:
   - docker build -t sanketh1701/simpleflask-2020 -f Dockerfile.dev .
 
 script:
-   - pytest
+   - docker run sanketh1701/simpleflask-2020 pytest
