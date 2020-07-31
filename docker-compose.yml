@@ -1,0 +1,18 @@
+version: "3"
+services:
+  redis-server:
+    image: redis
+  simple-flask:
+    stdin_open: true
+    build: .
+    ports:
+      - "5050:8080"
+    volumes:
+      - .:/usr/app
+  tests:
+    restart: on-failure
+    stdin_open: true
+    build: .
+    volumes:
+      - .:/usr/app
+    entrypoint: ["pytest"]
