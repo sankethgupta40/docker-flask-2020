@@ -1,5 +1,5 @@
-venv/
 static/
 templates/
 
 .pytest_cache/
+/venv/
