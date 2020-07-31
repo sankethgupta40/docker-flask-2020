@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf7e32c-9e69-4000-b2ca-1846eba1a795" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,7 @@
       <workItem from="1596022270121" duration="191000" />
       <workItem from="1596022497611" duration="1436000" />
       <workItem from="1596039679990" duration="4950000" />
-      <workItem from="1596188257672" duration="825000" />
+      <workItem from="1596188257672" duration="947000" />
     </task>
     <servers />
   </component>
